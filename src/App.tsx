@@ -319,7 +319,7 @@ function App() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
               <img src={logo} alt="" width={40} height={50} className='object-contain'/>
-              <span className='font-bold'>UPP</span>
+              <span className='font-bold'>Uniben Past and Present</span>
             </div>
             
             {/* Desktop Menu */}
