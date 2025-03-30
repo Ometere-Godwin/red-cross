@@ -1,4 +1,4 @@
-import React from 'react';
+import logo from './assets/logo.jpg'
 import { Facebook, Twitter, Instagram, Mail, MapPin, Phone, Menu, X, ArrowRight, Calendar, Clock, User } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -314,11 +314,11 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar */}
-      <nav className="bg-navy-900 text-white sticky top-0 z-50">
+      <nav className="bg-[#17236b] text-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <span className="text-xl font-bold">UPP</span>
+              <img src={logo} alt="" width={40} height={50} className='object-contain'/>
             </div>
             
             {/* Desktop Menu */}
