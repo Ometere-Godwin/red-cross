@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #001f3f;
+    --color-red: #ff4136;
+  }
+}
+
+body {
+  @apply antialiased;
+}
